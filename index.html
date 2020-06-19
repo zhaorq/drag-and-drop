@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <header>Drag and Drop</header>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-container-left" id="grid-container-left" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="grid-item-left-1">
+                <p class="droppable">
+                    Drop here.
+                </p>
+            </div>
+        </div>
+
+        <div class="grid-container-right">
+            <div class="grid-item-right-1">
+                <p class="draggable" draggable="true" id="gdp" ondragstart="drag(event)">
+                    right-1
+                </p>
+
+            </div>
+            <div class=" grid-item-right-2">
+                <p class="draggable" draggable="true" id="unemployment" ondragstart="drag(event)">
+                    right-2
+                </p>
+            </div>
+            <div class="grid-item-right-3">
+                <p class="draggable" draggable="true">
+                    right-3
+                </p>
+            </div>
+            <div class="grid-item-right-4">
+                <p class="draggable" draggable="true">
+                    right-4
+                </p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
