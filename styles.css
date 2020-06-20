@@ -17,8 +17,16 @@ p {
 
 .grid-container-left {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr;
     background-color: purple;
+    padding: 10px;
+    grid-auto-rows: minmax(150px, auto);
+    grid-row-gap: 20px;
+    grid-gap: 20px;
+}
+.grid-container-left > div {
+    display: grid;
+    background-color: green;
     padding: 10px;
     grid-auto-rows: minmax(150px, auto);
     grid-row-gap: 20px;
@@ -41,3 +49,4 @@ display: grid;
 background-color: blue;
 
 }
+

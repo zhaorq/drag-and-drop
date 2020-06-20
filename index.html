@@ -4,41 +4,27 @@
 <head charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-    <header>Drag and Drop</header>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="module" src="script.js"></script>
+    
+    <header>Add Panel</header>
 </head>
 
 <body>
+    <div>
+        <button onclick="addPanel()">Add a Panel</button>
+    </div>
     <div class="grid-container">
-        <div class="grid-container-left" id="grid-container-left" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <div class="grid-item-left-1">
-                <p class="droppable">
-                    Drop here.
-                </p>
-            </div>
+        <div class="grid-container-left" id="grid-container-left">
+           
         </div>
 
         <div class="grid-container-right">
             <div class="grid-item-right-1">
-                <p class="draggable" draggable="true" id="gdp" ondragstart="drag(event)">
-                    right-1
+                <p>
+                    News
                 </p>
 
-            </div>
-            <div class=" grid-item-right-2">
-                <p class="draggable" draggable="true" id="unemployment" ondragstart="drag(event)">
-                    right-2
-                </p>
-            </div>
-            <div class="grid-item-right-3">
-                <p class="draggable" draggable="true">
-                    right-3
-                </p>
-            </div>
-            <div class="grid-item-right-4">
-                <p class="draggable" draggable="true">
-                    right-4
-                </p>
             </div>
         </div>
 

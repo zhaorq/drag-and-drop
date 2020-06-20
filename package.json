@@ -1,0 +1,24 @@
+{
+  "name": "drag-and-drop",
+  "version": "1.0.0",
+  "description": "w# drag-and-drop",
+  "main": "dummyPanel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaorq/drag-and-drop.git"
+  },
+  "author": "Tianyi Zhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaorq/drag-and-drop/issues"
+  },
+  "homepage": "https://github.com/zhaorq/drag-and-drop#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3"
+  }
+}
